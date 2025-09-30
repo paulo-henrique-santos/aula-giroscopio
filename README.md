@@ -15,7 +15,7 @@ Status do Projeto: Em desenvolvimento 🚧 (funcional, mas em melhorias contínu
 
 ### Demonstração da Aplicação
 
-(adicione aqui um GIF ou vídeo do jogo rodando no celular com Expo Go)
+![Gif Capture o Orbe](https://github.com/user-attachments/assets/66af6405-2a77-4793-b7ff-0c6162157d90)
 
 ### Funcionalidades
 
