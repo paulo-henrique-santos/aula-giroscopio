@@ -15,7 +15,9 @@ Status do Projeto: Em desenvolvimento 🚧 (funcional, mas em melhorias contínu
 
 ### Demonstração da Aplicação
 
-![Gif Capture o Orbe](https://github.com/user-attachments/assets/66af6405-2a77-4793-b7ff-0c6162157d90)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/66af6405-2a77-4793-b7ff-0c6162157d90" width="300" alt="Gif Capture o Orbe" />
+</p>
 
 ### Funcionalidades
 
