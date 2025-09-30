@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+🎮 Jogo Colete os Orbes 🔵 - Paulo Henrique dos Santos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Status do Projeto: Em desenvolvimento 🚧 (funcional, mas em melhorias contínuas)
 
-## Get started
+### Tabela de Conteúdos
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Demonstração da Aplicação](#demonstração-da-aplicação)
+* [Funcionalidades](#funcionalidades)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [Como Rodar o Projeto Localmente](#como-rodar-o-projeto-localmente)
+* [Autor](#autor)
 
-1. Install dependencies
+### Descrição do Projeto
+<p align="center"> Este projeto é um jogo interativo desenvolvido em React Native com Expo, onde o jogador controla uma esfera usando o giroscópio do dispositivo. O objetivo é coletar orbes azuis para ganhar pontos e tempo extra, enquanto evita os orbes vermelhos que reduzem o tempo. O jogo inclui placar, cronômetro, colisões com efeitos visuais e a possibilidade de reiniciar após o término. </p>
 
-   ```bash
-   npm install
-   ```
+### Demonstração da Aplicação
 
-2. Start the app
+(adicione aqui um GIF ou vídeo do jogo rodando no celular com Expo Go)
 
-   ```bash
-   npx expo start
-   ```
+### Funcionalidades
 
-In the output, you'll find options to open the app in a
+- **Controle pelo Giroscópio:** O jogador move a esfera inclinando o celular.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Orbes Azuis:** +1 ponto, +1 segundo no timer, e aumento do tamanho do jogador.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Orbes Vermelhos:** –5 segundos no timer, se tornam cada vez mais perigosos.
 
-## Get a fresh project
+- **Explosão Visual:** Ao coletar um orbe, surge uma pequena animação no local.
 
-When you're ready, run:
+- **Timer Dinâmico:** Contagem regressiva que aumenta ou diminui de acordo com os orbes coletados.
+
+- **Reinício do Jogo:** Após o "Game Over", é possível reiniciar com um botão.
+
+### Funcionalidade Adicional: Orbe Vermelho Dinâmico
+### Descrição
+
+O orbe vermelho se reposiciona automaticamente a cada 5 segundos, aumentando o desafio do jogo.
+
+### Desafios e Aprendizados
+
+O maior desafio foi lidar com o ruído natural do giroscópio, que fazia a esfera do jogador “tremer”.
+Para resolver, implementei thresholds (ignorando pequenas variações) e suavização do movimento, garantindo uma jogabilidade mais estável.
+
+### Autor
+
+Desenvolvido por Paulo Henrique dos Santos.
+
+### Tecnologias Utilizadas
+
+- ![image](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![image](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
+- ![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+
+### Como Rodar o Projeto Localmente
 
 ```bash
-npm run reset-project
+# 1. Clone o repositório
+$ git clone [link-do-seu-repositorio]
+
+# 2. Navegue até o diretório do projeto
+$ cd quiz-app
+
+# 3. Instale as dependências
+$ npm install
+
+# 4. Inicie o servidor de desenvolvimento
+$ npm start
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Após executar `npm start`, pressione `w` para abrir no navegador ou escaneie o QR Code com o app Expo Go no seu celular.
