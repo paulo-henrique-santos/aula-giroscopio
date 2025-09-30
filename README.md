@@ -57,10 +57,10 @@ Desenvolvido por Paulo Henrique dos Santos.
 
 ```bash
 # 1. Clone o repositório
-$ git clone [link-do-seu-repositorio]
+$ git clone https://github.com/paulo-henrique-santos/aula-giroscopio.git
 
 # 2. Navegue até o diretório do projeto
-$ cd quiz-app
+$ cd aula-giroscopio
 
 # 3. Instale as dependências
 $ npm install
