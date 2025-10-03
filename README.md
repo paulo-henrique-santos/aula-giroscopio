@@ -1,6 +1,10 @@
-🎮 Jogo Colete os Orbes 🔵 - Paulo Henrique dos Santos
+<p align="center">🎮 Jogo Colete os Orbes 🔵 - Paulo Henrique dos Santos</p>
 
-Status do Projeto: Em desenvolvimento 🚧 (funcional, mas em melhorias contínuas)
+<p align="center">
+  <img width="700" height="700" alt="capture_o_orbe" src="https://github.com/user-attachments/assets/8c6b8ec3-cd30-4513-adb0-bf56dc29618e" />
+</p>
+
+<p align="center">Status do Projeto: Em desenvolvimento 🚧 (funcional, mas em melhorias contínuas)</p>
 
 ### Tabela de Conteúdos
 * [Descrição do Projeto](#descrição-do-projeto)
