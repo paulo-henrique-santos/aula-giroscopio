@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "aula-giroscopio",
-    "slug": "aula-giroscopio",
+    "name": "capture-o-orbe",
+    "slug": "capture-o-orbe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "aulagiroscopio",
+    "scheme": "captureoorbe",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
